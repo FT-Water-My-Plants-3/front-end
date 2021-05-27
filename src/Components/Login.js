@@ -19,7 +19,7 @@ const Login = (props) => {
 
   useEffect(()=>{
     token && history.push('/myplants')
-  }, []) // eslint-disable-line
+  }, []) // eslint-disable-line react-hooks/exhaustive-deps
 
   const handleChange = (e) => {
     setLogin({

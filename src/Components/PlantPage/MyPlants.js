@@ -24,7 +24,7 @@ const MyPlants = () => {
             })
             .catch( err => console.error( "darn... nothing: ", err) );
         }, 
-    [myPlants]); // eslint-disable-line
+    [myPlants]); // eslint-disable-line react-hooks/exhaustive-deps
 
     const onClickAdd = (e) =>{
         setAdd(!add);
