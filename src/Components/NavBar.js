@@ -40,6 +40,7 @@ const NavBar = () => {
 
   const token = localStorage.getItem('token')
 
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   const location = useLocation()  // I know this is not being used - NO TOUCHY! You touchy = navbar angry
   console.log(`You are here: ${location}`)
   
