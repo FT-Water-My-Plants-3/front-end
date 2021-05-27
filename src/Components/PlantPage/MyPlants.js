@@ -24,7 +24,7 @@ const MyPlants = () => {
             })
             .catch( err => console.error( "darn... nothing: ", err) );
         }, 
-    [myPlants]);
+    [myPlants]); // eslint-disable-line
 
     const onClickAdd = (e) =>{
         setAdd(!add);

@@ -41,6 +41,7 @@ const NavBar = () => {
   const token = localStorage.getItem('token')
 
   const location = useLocation()  // I know this is not being used - NO TOUCHY! You touchy = navbar angry
+  console.log(`You are here: ${location}`)
   
   const { push } = useHistory();
 

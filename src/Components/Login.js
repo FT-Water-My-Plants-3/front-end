@@ -19,7 +19,7 @@ const Login = (props) => {
 
   useEffect(()=>{
     token && history.push('/myplants')
-  }, [])
+  }, []) // eslint-disable-line
 
   const handleChange = (e) => {
     setLogin({

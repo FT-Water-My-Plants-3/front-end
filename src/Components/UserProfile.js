@@ -66,7 +66,7 @@ const UserProfile = () => {
     .catch(err=>{
       console.log(err);
     })
-  }, []);
+  }, []); // eslint-disable-line
 
   const handleChange = e => {
     setUser({
